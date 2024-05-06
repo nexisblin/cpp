@@ -81,5 +81,6 @@ int main() {
 
     cout << "1 commit" << endl;
     cout << "2 commit" << endl;
+    cout << "3 commit" << endl;
     return 0;
 }
