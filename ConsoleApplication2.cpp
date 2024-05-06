@@ -20,7 +20,7 @@ void swapingPairsInMatrix(int matrix[][100], int rows, int cols) {
 // Ф-ия для вывода двумерного массива
 void printMatrix(int matrix[][100], int rows, int cols) {
     for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols; j++) {
+        for (int j = 1; j < cols; j++) {
             cout << matrix[i][j] << " ";
         }
         cout << endl;
