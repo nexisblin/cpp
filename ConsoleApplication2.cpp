@@ -79,5 +79,6 @@ int main() {
     cout << "2 massive:" << endl;
     printMatrix(matrix2, rows2, cols2);
 
+    cout << "1 commit" << endl;
     return 0;
 }
