@@ -80,5 +80,6 @@ int main() {
     printMatrix(matrix2, rows2, cols2);
 
     cout << "1 commit" << endl;
+    cout << "2 commit" << endl;
     return 0;
 }
