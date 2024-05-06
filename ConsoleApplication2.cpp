@@ -84,5 +84,6 @@ int main() {
     cout << "3 commit" << endl;
 
     cout << "1 master commit" << endl;
+    cout << "2 master commit" << endl;
     return 0;
 }
