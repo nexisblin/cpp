@@ -11,7 +11,7 @@ void swapPairs(int arr[], int size) {
 }
 
 // Ф-ия для обмена пар элементов в каждой строке двумерного массива
-void swapPairsInMatrix(int matrix[][100], int rows, int cols) {
+void swapingPairsInMatrix(int matrix[][100], int rows, int cols) {
     for (int i = 0; i < rows; i++) {
         swapPairs(matrix[i], cols);
     }
@@ -68,8 +68,8 @@ int main() {
     printMatrix(matrix2, rows2, cols2);
 
     // Меняем местами каждую пару в каждой строке каждого массива
-    swapPairsInMatrix(matrix1, rows1, cols1);
-    swapPairsInMatrix(matrix2, rows2, cols2);
+    swapingPairsInMatrix(matrix1, rows1, cols1);
+    swapingPairsInMatrix(matrix2, rows2, cols2);
 
     // Вывод результатов
     cout << "Results:" << endl;
